@@ -2,22 +2,22 @@ name: CI
 
 on:
   push:
-    braiches: [main]
+    branches: [ main ]
   pull_request:
   workflow_dispatch:
 
 jobs:
   build-test:
-    run-on: ubuntu-latest
-    
+    runs-on: ubuntu-latest
+
     steps:
       - name: Lấy code
-      - users: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Cài .NET 10 SDK
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 10.0.x
+          dotnet-version: '10.0.x'
 
       - name: Restore package
         run: dotnet restore DevAcademy.slnx
