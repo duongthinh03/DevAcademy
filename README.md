@@ -7,7 +7,7 @@ Dự án cá nhân để học sâu .NET 10, .NET Aspire, modular monolith và D
 
 ## Trạng thái
 
-Đang ở **giai đoạn 1**: khung dự án, gateway, CI. Tiếp theo là module Courses.
+Đang ở **giai đoạn 1**: khung dự án, gateway, CI, ADR. Tiếp theo là module Courses.
 
 ## Công nghệ
 
@@ -25,7 +25,21 @@ src/
   Host/            Ứng dụng monolith nạp các module
   BuildingBlocks/  SharedKernel: lớp nền chung cho Domain
 tests/             Test kiến trúc và test các module
+docs/adr/          Các quyết định kiến trúc (ADR)
+.github/workflows/ Pipeline CI
 ```
+
+## Tài liệu kiến trúc
+
+Các quyết định kiến trúc được ghi lại dưới dạng ADR trong [docs/adr](docs/adr):
+
+- [0001 - Modular monolith](docs/adr/0001-modular-monolith.md)
+- [0002 - PostgreSQL](docs/adr/0002-postgresql.md)
+- [0003 - Cấu trúc code](docs/adr/0003-cau-truc-code.md)
+- [0004 - .NET 10 LTS](docs/adr/0004-dotnet-10.md)
+- [0005 - Trunk-based](docs/adr/0005-git-trunk-based.md)
+- [0006 - API Gateway từ đầu](docs/adr/0006-gateway-tu-dau.md)
+- [0007 - Xác thực bằng Keycloak](docs/adr/0007-xac-thuc.md)
 
 ## Chạy thử
 
