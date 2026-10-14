@@ -33,6 +33,8 @@ docs/adr/          Các quyết định kiến trúc (ADR)
 
 Các quyết định kiến trúc được ghi lại dưới dạng ADR trong [docs/adr](docs/adr):
 
+Sơ đồ tổng quan: [C4 mức Context](docs/architecture/c4-context.md)
+
 - [0001 - Modular monolith](docs/adr/0001-modular-monolith.md)
 - [0002 - PostgreSQL](docs/adr/0002-postgresql.md)
 - [0003 - Cấu trúc code](docs/adr/0003-cau-truc-code.md)
