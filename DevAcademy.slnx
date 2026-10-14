@@ -13,7 +13,14 @@
   <Folder Name="/src/Host/">
     <Project Path="src/Host/DevAcademy.Api/DevAcademy.Api.csproj" />
   </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Courses/">
+    <Project Path="src/Modules/Courses/DevAcademy.Courses.Domain/DevAcademy.Courses.Domain.csproj" />
+  </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/DevAcademy.ArchitectureTests/DevAcademy.ArchitectureTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Modules/">
+    <Project Path="tests/Modules/DevAcademy.Courses.UnitTests/DevAcademy.Courses.UnitTests.csproj" />
   </Folder>
 </Solution>
